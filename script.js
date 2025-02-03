@@ -1,3 +1,4 @@
-function showResponse() {
-    document.getElementById('response').style.display = 'block';
+function showAnswer() {
+    const answerDiv = document.getElementById('answer');
+    answerDiv.classlist.toggle('hidden');
 }
